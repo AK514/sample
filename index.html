@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog Page</title>
+        <style>
+            body{
+               width: min-content;
+                background-color: beige;
+               width: 700px;
+             align-content: center;
+             margin: 0% auto;
+             padding-left: 10px;
+           
+            }
+            h1{
+                text-decoration: black;
+                font-family: Russo One, Helvetica, Arial;
+               font-weight: bolder;
+            }
+            #navbar{
+                /* border-radius: 2px; */
+                /* border: 1px solid rgb(133, 8, 8); */
+                background-color: rgb(180, 8, 8);
+                display: flex;
+                justify-content: space-around;
+                color: aliceblue;
+                height: 30px;
+                align-items: center;
+                margin: 20px 0px;       
+                font-family: Russo One, Helvetica, Arial;  
+                font-size: large;
+            }
+            .container{
+                width: 100%;
+                margin-bottom:40px;
+               font-family: Russo One, Helvetica, Arial;
+            }
+            img{
+                height: 100%;
+                width: 30%;
+                float: left;
+            }
+            #discription{
+                margin-left: 32%;
+                height: 100%;
+                text-align: justify;
+                font-size: larger;
+
+            }
+            a{
+                text-decoration: none;
+                color: rgb(237, 11, 11);
+            }
+            a:hover{
+                color: rgb(92, 81, 217);
+            }
+            /* a:visited{
+                color: green;
+            } */
+            .container_1{
+               padding-top: 30px;
+               width: 100%;
+                margin-bottom:40px;
+               font-family: Russo One, Helvetica, Arial;
+               padding-bottom: 0px;
+            }
+            .listitem{
+                font-family: Russo One, Helvetica, Arial;
+                margin: 2px;
+                font-size: larger;
+            }
+            hr{
+                height: 3px;
+                /* color: #333; */
+                background-color:#333; 
+                padding-top: 0px;
+            }
+            footer{
+                font-size: larger;
+                font-family: Russo One, Helvetica, Arial;
+                padding: 10px 5px;
+                color: #333;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="body">
+            <h1><Strong>Nick's Beef Jerky business</Strong></h1>
+            <header id="navbar">
+            <div>Home</div>
+            <div>About</div>
+            <div>Content</div>
+            <div>Products</div>
+            </header>
+            <article>
+                <div class="container">
+                    <img src="https://ainc.github.io/basicweb-crash/nick_such.jpg" alt="boy image"/>
+                
+                    <p id="discription">Here at Nick's Beef Jerky, we search the planet for the best beef jerky and deliver it to your doorstep.Nobody van beat our prices or out flavours!
+                    <a href="signup.html" target="blank">Sign up now</a>
+                    to receive mor information abut our products, or check out our 
+                    <a href="#">full list of flavours.</a></p>
+                </div>
+            </article>
+            <br/>
+            <br/>
+        <div class="container_1">
+            <p>
+                <h2><strong>Our Top Products</strong></h2>
+                
+                <ol>
+                    <li class="listitem">Teriyaki</li>
+                    <li class="listitem">BBQ</li>
+                    <li class="listitem">Spicy pepper</li>
+                </ol>
+            </p>
+            <order>
+                <h2>Ways to order</h2>
+                <ul>
+                    <li class="listitem">Order Online via <a href="#">Paypal</a></li>
+                    <li class="listitem">Order via Phone:<a href="#">859-472-4219</a></li>
+                </ul>
+            </order>
+        </div>
+        <hr>
+        <footer>
+                Let's go to <a href="#" >Nick's test page</a>    
+        </footer>
+    </div>
+    </body>
+</html>
